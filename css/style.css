@@ -1,5 +1,8 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Nanum+Gothic|Nanum+Pen+Script&display=swap');
+@import url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/HANBatang.css');
+
 /*==============================
 	- Template Name: FOREVER - Responsive HTML Wedding Template
 	- Author: DoubleEight
@@ -206,7 +209,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Cute Font', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -1293,7 +1296,7 @@ img.with-border{
 }
 
 .section-title h2{
-	font-size:40px; /*same size with h1*/
+	font-size:60px; /*40px;*/ /*same size with h1*/
 }
 
 
@@ -1482,14 +1485,14 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	color:#f0394d;
+	color:#9687ed;
 	font-size:18px;
 	position:relative;
 	z-index:3
 }
 
 .white-heart{
-	color:#FFF;
+	color:#ed87a7;
 	font-size:18px;
 	margin-left:-15px;
 	position:relative;
@@ -1568,14 +1571,16 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.11 Banner Text				 			 */
 /* ----------------------------------------------*/
 .banner-text{
-	display:inline-block;
-	font-family: 'Oswald','Noto Sans KR', sans-serif;
+	display: inline-block;
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
 	text-align:center
 }
-
+.banner-text h1{
+	font-family: 'Nanum Pen Script';
+        font-size: 80px;
+}
 .banner-text.small{
 	padding:2px 30px;
 }
@@ -1585,7 +1590,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .banner-text.large{
-	padding:2px 70px;
+	padding:250px 70px 40px 70px;
 }
 
 .banner-text.full{
@@ -1604,12 +1609,12 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.dark{
 	color:#6a6a6a;
-	border-top:medium double #6a6a6a;
-	border-bottom:medium double #6a6a6a;
+	/* border-top:medium double #6a6a6a; */
+	/* border-bottom:medium double #6a6a6a; */
 }
 
 .banner-text.dark *{
-	color:#333333;
+	color:#555555;
 }
 
 .banner-text.withlove{
@@ -2598,8 +2603,8 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'Oswald', 'Noto Sans KR',sans-serif;
-	font-size:20px;
+	font-family: 'Nanum Pen Script';
+	font-size: 30px;
 	color:#FFF;
 	letter-spacing:3px;
 	margin-top:10px;
@@ -2670,9 +2675,27 @@ footer .image-divider.fixed-height{
 }
 
 #banner-date{
-	font-family: 'Oswald', 'Noto Sans KR', sans-serif;
-	letter-spacing:3px;
-	font-size:14px;
+	font-family: 'HANBatang', -apple-system, BlinkMacSystemFont, sans-serif;
+	color: #6a6a6a;
+	letter-spacing: -1px;
+	font-size: 22px;
+}
+
+.introcontents{
+	font-family: 'HANBatang', -apple-system, BlinkMacSystemFont, sans-serif;
+	color: #6a6a6a;
+	letter-spacing: -1px;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.intronames{
+	font-family: 'HANBatang', -apple-system, BlinkMacSystemFont, sans-serif;
+	color: #6a6a6a;
+	letter-spacing: 0px;
+	line-height: 2.2;
+	font-size: 22px;
+	padding-top: 26px;
 }
 
 /* ----------------------------------------------*/
@@ -3434,6 +3457,10 @@ p{
 
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
+.banner-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .banner-text.withlove  {
 	margin-top: 70px;
 }
@@ -3722,7 +3749,7 @@ footer .image-divider.fixed-height{
 }
 
 #footer-couple-name{
-	font-family: 'Oswald','Noto Sans KR', sans-serif;
+	font-family: 'Nanum Pen Script';
 	font-size:15px;
 	color:#FFF;
 	letter-spacing:3px;
