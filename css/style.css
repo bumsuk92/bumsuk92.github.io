@@ -2686,7 +2686,7 @@ footer .image-divider.fixed-height{
 	color: #6a6a6a;
 	letter-spacing: -1px;
 	line-height: 1.6;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .intronames{
@@ -2695,7 +2695,7 @@ footer .image-divider.fixed-height{
 	letter-spacing: 0px;
 	line-height: 2.2;
 	font-size: 22px;
-	padding-top: 26px;
+	padding-top: 28px;
 }
 
 /* ----------------------------------------------*/
@@ -3457,10 +3457,6 @@ p{
 
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
-.banner-text {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 .banner-text.withlove  {
 	margin-top: 70px;
 }
@@ -3503,9 +3499,12 @@ p{
 .banner-text.small,
 .banner-text.medium,
 .banner-text.large{
-	padding:0;
+	padding:250px 70px 40px 70px;
 }
 
+.banner-text h1{
+    font-size: 60px;
+}
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
@@ -3596,6 +3595,14 @@ p{
 /*===============================================*/
 /* 14. ONEPAGE SECTION							 */
 /*===============================================*/
+
+.introcontents{
+	font-size: 15px;
+}
+
+.intronames{
+	font-size: 17px;
+}
 
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
