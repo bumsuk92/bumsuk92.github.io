@@ -3511,11 +3511,11 @@ p{
 .banner-text.small,
 .banner-text.medium,
 .banner-text.large{
-	padding:230px 70px 40px 70px;
+	padding:210px 70px 40px 70px;
 }
 
 .banner-text h1{
-    font-size: 65px;
+    font-size: 62px;
 }
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
