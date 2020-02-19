@@ -1719,6 +1719,17 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*===============================================*/
 /* 08. ICON										 */
 /*===============================================*/
+.mapcontents{
+	font-size: 16px;
+	line-height: 170%;
+	padding: 0;
+	margin-bottom: -30px;
+}
+.mapcontents .map-icon{
+	width: 36px;
+	height: 36px;
+	margin: 5px;
+}
 .de-icon{
 	width: 60px;
 	height: 60px;
