@@ -1721,6 +1721,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*===============================================*/
 .mapcontents{
 	font-size: 15px;
+	letter-spacing: -1px;
 	line-height: 170%;
 	padding: 0;
 	margin-bottom: -30px;
