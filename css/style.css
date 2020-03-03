@@ -2700,8 +2700,7 @@ footer .image-divider.fixed-height{
 	color: #6a6a6a;
 	letter-spacing: -1px;
 	line-height: 1.6;
-	font-size: 18px;
-	margin-bottom: 30px;
+	font-size: 20px;
 }
 
 .intronames{
@@ -2712,6 +2711,16 @@ footer .image-divider.fixed-height{
 	font-size: 22px;
 	padding: 28px 0 38px 0;
 }
+
+.introlinks{
+	font-family: 'HANBatang', -apple-system, BlinkMacSystemFont, sans-serif;
+	color: #6a6a6a;
+	letter-spacing: -1px;
+	line-height: 1.6;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
 
 /* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
