@@ -1578,7 +1578,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 .banner-text h1{
 	font-family: 'Stylish';
-        font-size: 66px;
+        font-size: 70px;
 }
 .banner-text.small{
 	padding:2px 30px;
@@ -3524,11 +3524,11 @@ p{
 .banner-text.medium,
 .banner-text.large{
 	margin:40px 0 270px 0;
-	padding:10px 70px;
+	padding:10px 36px;
 }
 
 .banner-text h1{
-    font-size: 60px;
+    font-size: 66px;
 }
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
@@ -3622,11 +3622,15 @@ p{
 /*===============================================*/
 
 .introcontents{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .intronames{
 	font-size: 17px;
+}
+
+.introlinks{
+	font-size: 15px;
 }
 
 /* ----------------------------------------------*/
