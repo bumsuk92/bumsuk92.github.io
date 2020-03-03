@@ -2700,7 +2700,8 @@ footer .image-divider.fixed-height{
 	color: #6a6a6a;
 	letter-spacing: -1px;
 	line-height: 1.6;
-	font-size: 20px;
+	font-size: 18px;
+	margin-bottom: 30px;
 }
 
 .intronames{
