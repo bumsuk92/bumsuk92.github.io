@@ -1601,7 +1601,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .banner-text.light{
-    font-family:'Nanum Myeongjo';
+    font-family:'nanummyeongjo';
 	color:#FFF;
 	text-shadow: 1px 1px 2px black, 0 0 25px #FFFACD, 1px 0 5px #DDA0DD; /*1px 1px 2px black, 0 0 25px #FFD700, 0 0 5px #FF8C00;*/
 	border-top:medium double #fff;
@@ -2693,7 +2693,7 @@ footer .image-divider.fixed-height{
 
 #banner-date{
 	/*font-family: 'HANBatang', -apple-system, BlinkMacSystemFont, sans-serif;*/
-	font-family: 'Nanum Myeongjo';
+	font-family: 'nanummyeongjo';
 	color: #FFF;
     /*text-shadow: 1px 1px 2px black, 0 0 25px #DDA0DD, 0 0 5px #EE82EE;/*1px 1px 2px black, 0 0 25px #FFD700, 0 0 5px #FF8C00;*/*/
     text-shadow: 1px 1px 2px black, 0 0 25px #ffffff, 0 0 5px #000000;
